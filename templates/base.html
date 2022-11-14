@@ -12,9 +12,9 @@
         <nav>
             <h1></h1>
             <ul>
-                <li><a href="../templates/about.html">Home</a></li>
-                <li><a href="../templates/info.html">Info</a></li>
-                <li><a href="../templates/index6.html">Predict</a></li>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('information') }}">Info</a></li>
+                <li><a href="{{ url_for('test') }}">Predict</a></li>
             </ul>
         </nav>
     </div>

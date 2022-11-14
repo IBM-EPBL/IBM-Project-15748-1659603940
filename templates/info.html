@@ -12,9 +12,9 @@
         <nav>
             <h1></h1>
             <ul>
-                <li><a href="../templates/about.html">Home</a></li>
-                <li><a href="../templates/info.html">Info</a></li>
-                <li><a href="../templates/index6.html">Predict</a></li>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('information') }}">Info</a></li>
+                <li><a href="{{ url_for('test') }}">Predict</a></li>
             </ul>
         </nav>
         <h1 style="margin-left: 48%;">ECG</h1>
@@ -79,7 +79,7 @@
         </div>
         <div class="container">
             <div class="center">
-              <button type="button">Predict</button>
+              <button type="button"><a href="{{ url_for('test') }}" style="text-decoration:none ;color: #fff;"> Predict</a></button>
             </div>
           </div>
     </div>

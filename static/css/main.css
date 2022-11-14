@@ -133,3 +133,74 @@ nav ul li a{
     margin-right: 3%;
 }
 
+/* index6.html */
+
+.image_container{
+    background: #222;
+    /* background-image: url(../Placeholder.jpg); */
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    max-width: 384px;
+    height: 250px;
+    margin: auto;
+    position: relative;
+    border:#26362a;
+    border: 3px solid #26362a;
+    border-radius: 15px;
+}
+
+.image_container #file_id{
+    height:247px;
+    width: 381px;
+    border-radius:15px ;
+}
+
+.image_container #upload_text{
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.background button{
+    background: #393939;
+    border:0;
+    outline: none;
+    padding: 15px 35px;
+    color: #fff;
+    margin-top: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: larger;
+    
+}
+.container1 { 
+    height: 200px;
+    position: relative;
+  }
+  
+  .center1 {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .background #predict_button{
+    background: #393939;
+    border:0;
+    outline: none;
+    padding: 15px 35px;
+    color: #fff;
+    margin-top: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: larger;
+    
+}
